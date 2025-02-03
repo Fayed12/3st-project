@@ -505,8 +505,7 @@ header .container::after{
     display: flex;
     justify-content: center;
     align-items: center;
-    height:50px ;
-    max-width: 50%;
+    width: 100%;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -535,7 +534,6 @@ header .container::after{
 .portfolio .link li a{
     text-decoration: none;
     color: black;
-    padding: 10px;
     font-size: 13px;
 }
 
