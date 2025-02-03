@@ -415,11 +415,12 @@ header .container::after{
 /* start about section */
 
 .about{
+    background-image: url(/images/about.avif);
+    background-size: cover;
+    background-position: center;
     padding-top: var(--main-padding);
     padding-bottom:var(--main-padding);
     position: relative;
-    background-image: url(/images/about.avif);
-    background-size: cover;
 }
 
 .about .design{
@@ -1042,7 +1043,7 @@ header .container::after{
 }
 
 .pricing .pricing-content .card{
-    height: 370px;
+    height: 390px;
     background-color: #EEE;
     padding: 10px;
     border-radius: 10px;
